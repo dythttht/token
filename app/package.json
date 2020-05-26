@@ -32,7 +32,7 @@
     "file-loader": "^3.0.1",
     "html-withimg-loader": "^0.1.16",
     "ipfs-http-client": "^29.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "openzeppelin-solidity": "^2.5.0",
     "truffle-contract": "^4.0.31",
     "url-loader": "^1.1.2",
