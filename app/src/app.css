@@ -1,0 +1,130 @@
+
+.col-margin-bottom-1 {
+  margin-bottom: 1em;
+}
+
+.col-margin-top-1 {
+  margin-top: 1em;
+}
+
+.col-margin-left-1 {
+  margin-left: 1em;
+}
+
+a {
+  cursor: pointer;
+}
+
+.navbar.main {
+  background: #5f6d7f;
+  color: white;
+}
+
+.navbar.main .list.nav-link {
+  background: #01bf86;
+  margin-left: 1em;
+}
+
+.navbar.main a {
+  color: white;
+}
+
+
+.navbar ul {
+  list-style: none;
+}
+
+body {
+  background: #e8e8e8;
+}
+.container-fluid .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#nft-list .details,
+.container-fluid .title,
+#product-finalize-list a {
+  color: #5f6d7f;
+}
+
+#params, #graph { display: inline-block; margin-left: 20px; }
+input { width: 6ex; margin-left: 1ex; text-align:right; }
+label { margin-right: 2ex; font-family: Georgia; font-style:italic; }
+
+input[type=range] { width: 80px; position:relative; top:4px}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.create-token {
+  background: #FF5722;
+  color: #FFF;
+  font-weight: 900;
+  border: 2px solid #FF5722;
+  padding: 4px;
+  margin:4px;
+  margin-bottom: 2em;
+}
+
+.product {
+  display: inline-block;
+}
+.product img {
+  width:100%;
+  height: 150px;
+  background: #dcdcdc;
+}
+
+#msg, #loader {
+  margin-top: 2em;
+}
+
+ul.nav > li{
+  display:inline-block;
+}
+
+ul.nav > li.active{
+  border-bottom: 5px solid #ccc;
+}
+
+
+.navbar.main a:hover{
+  transform:scale(1.5);
+  background: transparent;
+}
+
+.navbar {
+  margin-bottom:10px;
+}
+
+#exchange-info{
+  margin-bottom: 1em;
+  padding: 0 15px;
+}
+
+.account-picker{
+  position:absolute;
+  right:0px;
+  top: 0px;
+  z-index:100;
+  padding:5px;
+  line-height:50px;
+  font-family: consolas;
+}
+
+.product .info{
+  padding: 10px 5px;
+  background: #f5f5f5;
+}
+.product .info > div {
+  line-height:35px;
+}

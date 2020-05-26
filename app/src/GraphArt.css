@@ -1,0 +1,26 @@
+#controls {
+  padding:5px;
+  background: hsla(0,0%,100%,0.7);
+  /*
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: hsla(0,0%,100%,0.7);*/
+}
+#controls b { font-size: 13px; padding-right: 20px }
+#params, #graph { display: inline-block; margin-left: 20px; }
+input { width: 6ex; margin-left: 1ex; text-align:right; }
+label { margin-right: 2ex; font-family: Georgia; font-style:italic; }
+
+input[type=range] { width: 80px; position:relative; top:4px}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}  
